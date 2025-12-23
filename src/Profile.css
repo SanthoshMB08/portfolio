@@ -2,6 +2,7 @@
 .profile {
   position: relative;
   width: 100%;
+  top :50%;
   min-height: 100vh;
   background-color: #fbf7cc;
   padding: 8vw;
@@ -9,12 +10,12 @@
 
 /* text section */
 .intro {
-  width: 45%;
-  top:50px;
+  width: 50%;
+  top: 50%;
 }
 
 .name {
-  font-size: 1.4vw;
+  font-size: 1.5vw;
   margin-bottom: 1vw;
 }
 
@@ -42,9 +43,9 @@
 /* image container (NO BORDER) */
 .imagebox {
   position: absolute;
-  right: 8%;
+  right: 2%;
   top: 10%;
-  width: 38%;
+  width: 35%;
   max-width: 50%;
   aspect-ratio: 1 / 1;
   border-radius: 50%;

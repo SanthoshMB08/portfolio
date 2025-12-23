@@ -10,10 +10,10 @@ import Contact from './contact'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <>
-      <Profile />
-      <About />
-      <Work />
-      <Contact />
+      <div><Profile /></div>
+      <div><About /></div>
+      <div><Work /></div>
+      <div><Contact /></div>
     </>
   </StrictMode>,
 )
