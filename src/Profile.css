@@ -43,6 +43,11 @@
 }
 
 /* resume button */
+.resume-link {
+  text-decoration: none;
+  display: inline-block;
+}
+
 .resume {
   padding: 0.8vw 2.5vw;
   font-size: 1vw;

@@ -11,7 +11,9 @@ function Profile() {
         <h1 className="role">Software</h1>
         <h1 className="role">Developer</h1>
         <h3 className="email">santhoshmb08@gmail.com</h3>
-        <button className="resume">Resume</button>
+        <a href="/resume.pdf" download="Santhosh_Resume.pdf" className="resume-link">
+          <button className="resume">Resume</button>
+        </a>
       </div>
 
       <div className="imagebox">
