@@ -41,18 +41,22 @@ function Work() {
   ];
 
   return (
-    <div className="work-container">
-      <h1>My Works</h1>
-      <p>I have worked on projects across multiple technologies and domains, gaining broad development <br/>experience while specializing in backend engineering. My projects focus on building scalable APIs,<br/> backend systems, and data-driven solutions using modern backend technologies and databases.<br/>
-       <a href='https://github.com/SanthoshMB08'> Check git hub for project→</a></p>
-      <div className="works-scroll">
-        {works.map(work => (
-          <div key={work.id} className="work-item">
-            <img src={work.image} alt={work.title} />
-            <h3>{work.title}</h3>
-            <p>{work.description}</p>
-          </div>
-        ))}
+    <div className="work-section">
+      <div className="work-content">
+        <div className="work-header">
+          <h1 className="work-title">My Works</h1>
+          <p className="work-description">I have worked on projects across multiple technologies and domains, gaining broad development <br/>experience while specializing in backend engineering. My projects focus on building scalable APIs,<br/> backend systems, and data-driven solutions using modern backend technologies and databases.<br/>
+           <a href='https://github.com/SanthoshMB08' className="work-link"> Check git hub for project→</a></p>
+        </div>
+        <div className="works-grid">
+          {works.map(work => (
+            <div key={work.id} className="work-item">
+              <img src={work.image} alt={work.title} />
+              <h3>{work.title}</h3>
+              <p>{work.description}</p>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );
