@@ -4,7 +4,7 @@ A modern, responsive portfolio website showcasing my skills, projects, and exper
 
 ## 🚀 Live Demo
 
-[View Portfolio](https://your-portfolio-url.com) *(Add your deployed URL here)*
+[View Portfolio](https://santhoshmb08.vercel.app)
 
 ## 📋 Overview
 
@@ -18,6 +18,11 @@ This portfolio website is built with React and Vite, featuring a clean and profe
 - **CSS3** - Custom styling with responsive design
 - **ESLint** - Code linting and formatting
 
+### CI/CD & Deployment
+- **GitHub Actions** - Automated CI/CD pipeline
+- **Vercel** - Hosting and deployment platform
+- **Node.js 20** - Runtime environment
+
 ### Key Features
 - Single Page Application (SPA) with smooth scrolling navigation
 - Fully responsive design for all devices
@@ -25,6 +30,7 @@ This portfolio website is built with React and Vite, featuring a clean and profe
 - Downloadable resume functionality
 - Project showcase with GitHub links
 - Contact information and social media links
+- Automated deployment on code changes
 
 ## 📁 Project Structure
 
@@ -118,6 +124,34 @@ npm run preview
 ```bash
 npm run lint
 ```
+
+## 🔄 CI/CD Pipeline
+
+This project uses GitHub Actions for continuous integration and deployment:
+
+### Automated Workflow
+- **Trigger**: Automatic deployment on pushes to the `main` branch
+- **Build Process**: 
+  - Installs dependencies
+  - Runs linting checks
+  - Builds the production bundle
+- **Deployment**: Automatically deploys to Vercel
+
+### Required GitHub Secrets
+To enable automatic deployment, you need to configure the following secret in your GitHub repository:
+
+1. **VERCEL_TOKEN**: Your Vercel authentication token
+   - Go to [Vercel Dashboard](https://vercel.com/dashboard) → Settings → Tokens
+   - Generate a new token
+   - Add it to your GitHub repository: Settings → Secrets and variables → Actions → New repository secret
+   - Name: `VERCEL_TOKEN`
+   - Value: Your Vercel token
+
+### Workflow File
+The CI/CD configuration is located in `.github/workflows/ci-cd.yml`
+
+### Deployment Status
+[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com)
 
 ## 🎨 Customization
 
