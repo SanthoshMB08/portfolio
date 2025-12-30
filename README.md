@@ -212,8 +212,8 @@ This project is open source and available under the [MIT License](LICENSE).
 
 **Santhosh M**
 - Email: santhoshmb08@gmail.com
-- LinkedIn: [Your LinkedIn Profile](https://linkedin.com/in/your-profile)
-- GitHub: [Your GitHub Profile](https://github.com/your-username)
+- LinkedIn: https://www.linkedin.com/in/santhosh-m-86724035a/
+- GitHub: https://github.com/SanthoshMB08
 
 ---
 
