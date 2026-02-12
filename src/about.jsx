@@ -27,7 +27,7 @@ function About() {  return (
           </li>
           <li className="skill-item">
             <h2 className="skill-title">Technical Skills</h2>
-            <p className="skill-description">Programming Languages: Java, Python, JavaScript (Node.js, React)<br/> 
+            <p className="skill-description">Programming Languages: Java (spring boot), Python, JavaScript (Node.js, React)<br/> 
               Web Technologies: HTML, CSS, React.js, Node.js, REST APIs <br/>
               DevOps Skills (Beginner - Microsoft Learn Certified):<br/>
               • Git & GitHub basics <br/>
@@ -36,7 +36,7 @@ function About() {  return (
               • DevOps project lifecycle <br/>
               • Agile, Scrum, Kanban boards <br/>
               • Basics of cloud deployment & monitoring <br/>
-              Database & Tools: MySQL, Git, VS Code Core  <br/>
+              Database & Tools: MySQL, Git, VS Code , supa base , mongoDB  <br/>
               Competencies: DSA, OOP, Problem Solving</p>
           </li>
         </ul>
